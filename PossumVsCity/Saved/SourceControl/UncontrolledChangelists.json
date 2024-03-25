@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Content/StarterContent/Particles/P_Ambient_Dust.uasset",
+				"C:/Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Content/Assets/BP_Proyectil.uasset",
+				"C:/Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Content/Assets/BP_Projectile.uasset",
+				"C:/Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Content/StarterContent/Maps/Minimal_Default.umap"
+			]
+		}
+	]
+}
