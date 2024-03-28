@@ -1682,3 +1682,336 @@ Continue: Skip saving this asset only.
 [2024.03.28-05.44.51:816][630]LogFileHelpers: InternalPromptForCheckoutAndSave took 287 ms (total: 1:05 min)
 [2024.03.28-05.44.51:818][630]AssetCheck: New page: Asset Save: Main
 [2024.03.28-05.44.51:818][630]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.28-05.45.45:704][598]LogAssetEditorSubsystem: Opening Asset editor for MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2024.03.28-05.45.47:810][652]LogSlate: Window 'Minimal_Default_BuiltData' being destroyed
+[2024.03.28-05.45.51:575][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.03.28-05.45.53:871][789]LogSlate: Window 'Save Content' being destroyed
+[2024.03.28-05.45.53:917][789]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-05.45.54:045][789]LogSavePackage: Moving output files for package: /Game/StarterContent/Materials/M_Concrete_Poured
+[2024.03.28-05.45.54:046][789]LogSavePackage: Moving '../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Saved/M_Concrete_Poured980522F74971B12B459E18B0ED3E4624.tmp' to '../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Content/StarterContent/Materials/M_Concrete_Poured.uasset'
+[2024.03.28-05.45.54:093][789]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 1:05 min)
+[2024.03.28-05.45.54:417][789]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-05.45.54:429][789]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2024.03.28-05.45.54:429][789]Cmd: MAP LOAD FILE="../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.28-05.45.54:429][789]LightingResults: New page: Lighting Build
+[2024.03.28-05.45.54:433][789]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2024.03.28-05.45.54:453][789]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.03.28-05.45.54:453][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-05.45.54:453][789]MapCheck: New page: Map Check
+[2024.03.28-05.45.54:453][789]LightingResults: New page: Lighting Build
+[2024.03.28-05.45.54:458][789]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.28-05.45.54:463][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.03.28-05.45.54:466][789]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_TableRound.M_TableRound needed to have new flag set bUsedWithNanite !
+[2024.03.28-05.45.54:731][789]MapCheck: Warning: M_TableRound Material /Game/StarterContent/Props/Materials/M_TableRound.M_TableRound was missing the usage flag bUsedWithNanite. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2024.03.28-05.45.54:797][789]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair needed to have new flag set bUsedWithNanite !
+[2024.03.28-05.45.55:058][789]MapCheck: Warning: M_Chair Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair was missing the usage flag bUsedWithNanite. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2024.03.28-05.45.55:062][789]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2024.03.28-05.45.55:062][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-05.45.55:069][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.03.28-05.45.55:074][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.03.28-05.45.55:088][789]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default'.
+[2024.03.28-05.45.55:088][789]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-05.45.55:088][789]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.28-05.45.55:088][789]LogAIModule: Creating AISystem for world Minimal_Default
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: ================================================
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: Total job queries 305, among them cache hits 112 (36.72%)
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: Tracking 193 distinct input hashes that result in 131 distinct outputs (67.88%)
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: RAM used: 4.73 MiB of 1.60 GiB budget. Usage: 0.29%
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: Shaders Compiled: 83
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: Jobs assigned 83, completed 83 (100%)
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: Average time worker was idle: 23.99 s
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: Time job spent in pending queue: average 0.18 s, longest 1.30 s
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: Job execution time: average 0.49 s, max 0.90 s
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: Job life time (pending + execution): average 0.67 s, max 1.71
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: Shader code size: average 37.727 KiB, min 30.371 KiB, max 63.484 KiB
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.26 s
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: Jobs were issued in 83 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: Average processing rate: 8.97 jobs/sec
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: Total thread time: 29.296 s
+[2024.03.28-05.45.55:102][789]LogShaderCompilers: Display: Total thread preprocess time: 2.999 s
+[2024.03.28-05.45.55:103][789]LogShaderCompilers: Display: Percentage time preprocessing: 10.24%
+[2024.03.28-05.45.55:103][789]LogShaderCompilers: Display: Effective parallelization: 3.17 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.28-05.45.55:103][789]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.28-05.45.55:103][789]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.53 sec, max 0.53 sec, min 0.53 sec)
+[2024.03.28-05.45.55:103][789]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2024.03.28-05.45.55:103][789]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2024.03.28-05.45.55:103][789]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2024.03.28-05.45.55:103][789]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2024.03.28-05.45.55:103][789]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.28-05.45.55:103][789]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.34% of total time (compiled   21 times, average 0.37 sec, max 0.42 sec, min 0.30 sec)
+[2024.03.28-05.45.55:103][789]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.69% of total time (compiled   21 times, average 0.36 sec, max 0.45 sec, min 0.25 sec)
+[2024.03.28-05.45.55:103][789]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.51% of total time (compiled   10 times, average 0.37 sec, max 0.40 sec, min 0.34 sec)
+[2024.03.28-05.45.55:103][789]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.14% of total time (compiled   10 times, average 0.18 sec, max 0.20 sec, min 0.16 sec)
+[2024.03.28-05.45.55:103][789]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 1.80% of total time (compiled    1 times, average 0.53 sec, max 0.53 sec, min 0.53 sec)
+[2024.03.28-05.45.55:103][789]LogShaderCompilers: Display: ================================================
+[2024.03.28-05.45.55:118][789]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.28-05.45.55:124][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.03.28-05.45.55:129][789]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.28-05.45.55:129][789]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 0.165ms to complete.
+[2024.03.28-05.45.55:208][789]AssetCheck: New page: Asset Save: M_Concrete_Poured
+[2024.03.28-05.45.55:208][789]LogContentValidation: Display: Validating /Script/Engine.Material /Game/StarterContent/Materials/M_Concrete_Poured.M_Concrete_Poured
+[2024.03.28-05.45.55:957][790]LogD3D12RHI: Warning: Waited for PSO creation for 100.000000ms
+[2024.03.28-05.46.04:443][939]LogSlate: Window 'Message Log' being destroyed
+[2024.03.28-05.46.04:517][939]LogSlate: Window 'Message Log' being destroyed
+[2024.03.28-05.46.08:661][ 30]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.03.28-05.46.09:169][ 35]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-05.46.15:009][118]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default
+[2024.03.28-05.46.15:009][118]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-05.46.15:009][118]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.28-05.46.27:538][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.03.28-05.46.27:669][571]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-05.46.27:673][571]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Main.Main
+[2024.03.28-05.46.27:673][571]Cmd: MAP LOAD FILE="../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Content/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.28-05.46.27:673][571]LightingResults: New page: Lighting Build
+[2024.03.28-05.46.27:673][571]LoadErrors: New page: Loading map: Main.umap
+[2024.03.28-05.46.27:724][571]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.03.28-05.46.27:724][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-05.46.27:760][571]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2024.03.28-05.46.27:760][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-05.46.27:761][571]MapCheck: New page: Map Check
+[2024.03.28-05.46.27:761][571]LightingResults: New page: Lighting Build
+[2024.03.28-05.46.27:775][571]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.28-05.46.27:779][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.03.28-05.46.27:782][571]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.03.28-05.46.27:783][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-05.46.27:796][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.03.28-05.46.27:811][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.03.28-05.46.27:821][571]LogAudio: Display: Audio Device (ID: 1) registered with world 'Main'.
+[2024.03.28-05.46.27:821][571]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-05.46.27:821][571]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.28-05.46.27:821][571]LogAIModule: Creating AISystem for world Main
+[2024.03.28-05.46.27:838][571]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.28-05.46.27:854][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.03.28-05.46.27:859][571]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.28-05.46.27:859][571]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.115ms to complete.
+[2024.03.28-05.46.38:410][793]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Main.Main:PersistentLevel.Main
+[2024.03.28-05.46.38:410][793]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-05.46.38:410][793]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.28-05.46.46:536][208]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-05.46.46:639][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.28-05.46.46:682][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.03.28-05.46.46:707][208]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.28-05.46.46:707][208]LogSavePackage: Moving '../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Saved/Main6DC9779A4E2F82C394B008A780E343FB.tmp' to '../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Content/Main.umap'
+[2024.03.28-05.46.46:715][208]LogFileHelpers: Saving map 'Main' took 0.076
+[2024.03.28-05.46.46:742][208]LogFileHelpers: InternalPromptForCheckoutAndSave took 205 ms (total: 1:05 min)
+[2024.03.28-05.46.46:744][208]AssetCheck: New page: Asset Save: Main
+[2024.03.28-05.46.46:744][208]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.28-05.46.49:232][308]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.28-05.46.49:238][308]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.28-05.46.49:238][308]LogPlayLevel: [PlayLevel] Compiling Main before play...
+[2024.03.28-05.46.49:271][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.03.28-05.46.49:272][308]LogPlayLevel: PlayLevel: Blueprint regeneration took 34 ms (1 blueprints)
+[2024.03.28-05.46.49:272][308]PIE: New page: PIE session: Main (Mar 27, 2024, 7:46:49 PM)
+[2024.03.28-05.46.49:272][308]LogPlayLevel: Display: Creating online subsystem for client :Context_11
+[2024.03.28-05.46.49:274][308]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.03.28-05.46.49:305][309]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.03.28-05.46.49:314][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008976s)
+[2024.03.28-05.46.49:314][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.009020s)
+[2024.03.28-05.46.49:333][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.03.28-05.46.49:334][309]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-05.46.49:334][309]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.28-05.46.49:334][309]LogAIModule: Creating AISystem for world Main
+[2024.03.28-05.46.49:335][309]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2024.03.28-05.46.49:335][309]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.03.28-05.46.49:335][309]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.28-05.46.49:335][309]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.28-05.46.49:335][309]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.28-05.46.49:335][309]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.28-05.46.49:335][309]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.28-05.46.49:335][309]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.28-05.46.49:335][309]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.28-05.46.49:335][309]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.28-05.46.49:335][309]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.28-05.46.49:335][309]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.28-05.46.49:335][309]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.28-05.46.49:337][309]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.28-05.46.49:357][309]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Ear (2))
+[2024.03.28-05.46.49:357][309]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.28-05.46.49:357][309]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.28-05.46.49:358][309]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.28-05.46.49:358][309]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.03.28-05.46.49:359][309]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.03.28-05.46.49:360][309]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.03.28-05.46.49:360][309]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.03.28-05.46.49:360][309]LogInit: FAudioDevice initialized with ID 3.
+[2024.03.28-05.46.49:360][309]LogAudio: Display: Audio Device (ID: 3) registered with world 'Main'.
+[2024.03.28-05.46.49:360][309]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.28-05.46.49:363][309]LogLoad: Game class is 'GameModeBase'
+[2024.03.28-05.46.49:364][309]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2024.03.28-00.46.49
+[2024.03.28-05.46.49:364][309]LogWorld: Bringing up level for play took: 0.001084
+[2024.03.28-05.46.49:365][309]PIE: Server logged in
+[2024.03.28-05.46.49:366][309]PIE: Play in editor total start time 0.128 seconds.
+[2024.03.28-05.47.06:197][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.28-05.47.06:197][147]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.03.28-05.47.06:197][147]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.03.28-05.47.06:197][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-05.47.06:219][147]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.28-05.47.06:225][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-05.47.06:244][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.28-05.47.06:246][147]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.28-05.47.06:246][147]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.28-05.47.06:247][147]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.28-05.47.06:254][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.03.28-05.47.06:297][148]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.03.28-05.51.40:364][744]LogSlate: Took 0.005183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.03.28-05.54.31:415][647]BlueprintLog: New page: Compile Main
+[2024.03.28-05.54.31:457][647]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.03.28-05.57.03:846][694]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2024.03.28-05.57.03:888][694]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Main_Auto2
+[2024.03.28-05.57.03:890][694]LogSavePackage: Moving '../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Saved/Main_Auto2E6FA88C34FD7DA84F9BF0B87818D4823.tmp' to '../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Saved/Autosaves/Game/Main_Auto2.umap'
+[2024.03.28-05.57.03:892][694]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Saved/Autosaves/Game/Main_Auto2.umap is in the /Temp path, will not scan.
+[2024.03.28-05.57.03:893][694]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main' took 0.077
+[2024.03.28-05.57.03:893][694]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.077
+[2024.03.28-06.03.47:632][190]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.28-06.03.47:638][190]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.28-06.03.47:639][190]LogPlayLevel: [PlayLevel] Compiling Main before play...
+[2024.03.28-06.03.47:682][190]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.03.28-06.03.47:684][190]LogPlayLevel: PlayLevel: Blueprint regeneration took 46 ms (1 blueprints)
+[2024.03.28-06.03.47:684][190]PIE: New page: PIE session: Main (Mar 27, 2024, 8:03:47 PM)
+[2024.03.28-06.03.47:684][190]LogPlayLevel: Display: Creating online subsystem for client :Context_12
+[2024.03.28-06.03.47:687][190]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.03.28-06.03.47:715][191]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.03.28-06.03.47:724][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009591s)
+[2024.03.28-06.03.47:724][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.009639s)
+[2024.03.28-06.03.47:744][191]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.03.28-06.03.47:746][191]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-06.03.47:746][191]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.28-06.03.47:747][191]LogAIModule: Creating AISystem for world Main
+[2024.03.28-06.03.47:747][191]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2024.03.28-06.03.47:747][191]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.03.28-06.03.47:747][191]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.28-06.03.47:747][191]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.28-06.03.47:747][191]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.28-06.03.47:747][191]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.28-06.03.47:747][191]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.28-06.03.47:747][191]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.28-06.03.47:747][191]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.28-06.03.47:747][191]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.28-06.03.47:747][191]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.28-06.03.47:747][191]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.28-06.03.47:747][191]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.28-06.03.47:749][191]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.28-06.03.47:769][191]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Ear (2))
+[2024.03.28-06.03.47:769][191]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.28-06.03.47:769][191]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.28-06.03.47:769][191]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.28-06.03.47:769][191]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.03.28-06.03.47:770][191]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.03.28-06.03.47:772][191]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.03.28-06.03.47:772][191]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.03.28-06.03.47:772][191]LogInit: FAudioDevice initialized with ID 4.
+[2024.03.28-06.03.47:772][191]LogAudio: Display: Audio Device (ID: 4) registered with world 'Main'.
+[2024.03.28-06.03.47:772][191]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.28-06.03.47:775][191]LogLoad: Game class is 'GameModeBase'
+[2024.03.28-06.03.47:776][191]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2024.03.28-01.03.47
+[2024.03.28-06.03.47:776][191]LogWorld: Bringing up level for play took: 0.001156
+[2024.03.28-06.03.47:777][191]LogBlueprintUserMessages: [Main_C_2] DEstroy the city
+[2024.03.28-06.03.47:777][191]LogBlueprintUserMessages: [Main_C_2] 20
+[2024.03.28-06.03.47:777][191]PIE: Server logged in
+[2024.03.28-06.03.47:778][191]PIE: Play in editor total start time 0.14 seconds.
+[2024.03.28-06.03.51:847][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.28-06.03.51:847][339]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.03.28-06.03.51:847][339]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.03.28-06.03.51:847][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-06.03.51:858][339]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.28-06.03.51:863][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-06.03.51:882][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.28-06.03.51:882][339]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.28-06.03.51:882][339]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.28-06.03.51:884][339]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.28-06.03.51:891][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.03.28-06.03.51:938][340]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.03.28-06.07.08:912][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.03.28-06.07.08:941][ 58]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Main_Auto3
+[2024.03.28-06.07.08:942][ 58]LogSavePackage: Moving '../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Saved/Main_Auto32B8C456D45FC573C19D40686B1BA5088.tmp' to '../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Saved/Autosaves/Game/Main_Auto3.umap'
+[2024.03.28-06.07.08:943][ 58]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Saved/Autosaves/Game/Main_Auto3.umap is in the /Temp path, will not scan.
+[2024.03.28-06.07.08:943][ 58]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main' took 0.053
+[2024.03.28-06.07.08:943][ 58]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.053
+[2024.03.28-06.09.55:045][ 27]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.28-06.09.55:052][ 27]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.28-06.09.55:054][ 27]LogPlayLevel: [PlayLevel] Compiling Main before play...
+[2024.03.28-06.09.55:098][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.03.28-06.09.55:100][ 27]LogPlayLevel: PlayLevel: Blueprint regeneration took 47 ms (1 blueprints)
+[2024.03.28-06.09.55:100][ 27]PIE: New page: PIE session: Main (Mar 27, 2024, 8:09:55 PM)
+[2024.03.28-06.09.55:100][ 27]LogPlayLevel: Display: Creating online subsystem for client :Context_13
+[2024.03.28-06.09.55:102][ 27]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.03.28-06.09.55:144][ 28]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.03.28-06.09.55:154][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009619s)
+[2024.03.28-06.09.55:154][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.009665s)
+[2024.03.28-06.09.55:174][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.03.28-06.09.55:174][ 28]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-06.09.55:174][ 28]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.28-06.09.55:174][ 28]LogAIModule: Creating AISystem for world Main
+[2024.03.28-06.09.55:175][ 28]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2024.03.28-06.09.55:175][ 28]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.03.28-06.09.55:175][ 28]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.28-06.09.55:175][ 28]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.28-06.09.55:175][ 28]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.28-06.09.55:175][ 28]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.28-06.09.55:175][ 28]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.28-06.09.55:175][ 28]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.28-06.09.55:175][ 28]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.28-06.09.55:175][ 28]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.28-06.09.55:175][ 28]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.28-06.09.55:175][ 28]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.28-06.09.55:175][ 28]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.28-06.09.55:178][ 28]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.28-06.09.55:197][ 28]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Ear (2))
+[2024.03.28-06.09.55:199][ 28]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.28-06.09.55:199][ 28]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.28-06.09.55:199][ 28]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.28-06.09.55:200][ 28]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.03.28-06.09.55:200][ 28]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.03.28-06.09.55:202][ 28]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.03.28-06.09.55:202][ 28]LogInit: FAudioDevice initialized with ID 5.
+[2024.03.28-06.09.55:202][ 28]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.03.28-06.09.55:202][ 28]LogAudio: Display: Audio Device (ID: 5) registered with world 'Main'.
+[2024.03.28-06.09.55:202][ 28]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.03.28-06.09.55:259][ 28]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.28-06.09.55:259][ 28]LogLoad: Game class is 'GameModeBase'
+[2024.03.28-06.09.55:261][ 28]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2024.03.28-01.09.55
+[2024.03.28-06.09.55:261][ 28]LogWorld: Bringing up level for play took: 0.001238
+[2024.03.28-06.09.55:262][ 28]LogBlueprintUserMessages: [Main_C_3] DEstroy the city
+[2024.03.28-06.09.55:263][ 28]LogBlueprintUserMessages: [Main_C_3] 20
+[2024.03.28-06.09.55:264][ 28]PIE: Server logged in
+[2024.03.28-06.09.55:266][ 28]PIE: Play in editor total start time 0.213 seconds.
+[2024.03.28-06.09.55:272][ 28]LogViewport: Scene viewport resized to 1282x730, mode Windowed.
+[2024.03.28-06.10.00:413][140]LogBlueprintUserMessages: [Main_C_3] 19
+[2024.03.28-06.10.00:979][157]LogBlueprintUserMessages: [Main_C_3] 18
+[2024.03.28-06.10.01:246][165]LogBlueprintUserMessages: [Main_C_3] 17
+[2024.03.28-06.10.02:246][195]LogBlueprintUserMessages: [Main_C_3] 16
+[2024.03.28-06.10.02:445][201]LogBlueprintUserMessages: [Main_C_3] 15
+[2024.03.28-06.10.02:646][207]LogBlueprintUserMessages: [Main_C_3] 14
+[2024.03.28-06.10.02:979][217]LogBlueprintUserMessages: [Main_C_3] 13
+[2024.03.28-06.10.03:212][224]LogBlueprintUserMessages: [Main_C_3] 12
+[2024.03.28-06.10.03:412][230]LogBlueprintUserMessages: [Main_C_3] 11
+[2024.03.28-06.10.03:612][236]LogBlueprintUserMessages: [Main_C_3] 10
+[2024.03.28-06.10.03:778][241]LogBlueprintUserMessages: [Main_C_3] 9
+[2024.03.28-06.10.03:979][247]LogBlueprintUserMessages: [Main_C_3] 8
+[2024.03.28-06.10.04:212][254]LogBlueprintUserMessages: [Main_C_3] 7
+[2024.03.28-06.10.06:812][332]LogBlueprintUserMessages: [Main_C_3] 6
+[2024.03.28-06.10.07:212][344]LogBlueprintUserMessages: [Main_C_3] 5
+[2024.03.28-06.10.07:413][350]LogBlueprintUserMessages: [Main_C_3] 4
+[2024.03.28-06.10.08:706][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.28-06.10.08:707][388]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.03.28-06.10.08:707][388]LogSlate: Window 'PossumVsCity Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.28-06.10.08:741][388]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.03.28-06.10.08:742][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-06.10.08:744][388]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.28-06.10.08:750][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-06.10.08:771][388]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.03.28-06.10.08:771][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.03.28-06.10.08:774][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.03.28-06.10.08:783][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.03.28-06.10.08:796][389]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.03.28-06.16.54:098][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-06.16.54:219][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.28-06.16.54:261][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.03.28-06.16.54:291][ 70]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.28-06.16.54:292][ 70]LogSavePackage: Moving '../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Saved/MainF846A0E2489FDB5F65FD98A358622FAB.tmp' to '../../../../../../Users/viznu/OneDrive/Documents/Projects/PlantsVSCityUnreal/PossumVsCity/Content/Main.umap'
+[2024.03.28-06.16.54:299][ 70]LogFileHelpers: Saving map 'Main' took 0.081
+[2024.03.28-06.16.54:322][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave took 224 ms (total: 1:05 min)
+[2024.03.28-06.16.54:324][ 70]AssetCheck: New page: Asset Save: Main
+[2024.03.28-06.16.54:324][ 70]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
